@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FGWEBFORM</title>
+    
+<style>
+    body{
+    
+        background-image: url(eye.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .header{
+        text-align: center;
+        font-family: sans-serif;
+        display: flex;
+        background-color:rgba(149, 146, 218, 0.8);
+        width: 100%;
+        height: 100px;
+        justify-content: cente;
+       
+    } 
+    
+    
+    nav{
+     justify-content: center;
+     align-self: center;
+     text-align: right;
+    
+    }
+    ul{
+        list-style: none;
+        text-align: center;
+        margin-left: 450px;
+        
+      }
+    li{
+        display: inline-block;
+        justify-content: center;
+        margin: 3px;
+        font-size: 15px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    
+    
+    .logo{
+        float: left;
+        width: 110px;
+        margin-left: -6px;
+        margin: 0px;
+        padding: 0px;
+      
+    }
+    
+    .adjust{
+        border-radius: 01%;
+        background-color: rgba( 255, 255 , 255, 0.8);
+        width: 740px;
+        height: 540px;
+        padding: 2rem 2rem;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .fd{
+       display: inline-block;
+       padding: 1rem 1rem;
+       margin: -1.6px;
+       margin-top: 35px;
+       vertical-align: middle;
+    }
+    
+    .bg{
+        border-top-right-radius: 01%;
+        border-bottom-right-radius: 01%;
+        background-color: rgba( 255, 255 , 255, 0.2); 
+        margin-right: 3px;
+        width: 280px;
+        height: 470px;
+    }
+    
+    img{
+        margin-top: 30px;
+    }
+    .mascot{
+        border-top-left-radius: 01%;
+        border-bottom-left-radius: 01%;
+        width: 280px;
+        height: 470px;
+        background-color: rgba( 0, 0, 255, 0.1);
+       
+    }
+    
+    a.button{
+        margin: 5px;
+        margin-top: 15px;
+        margin-left: -2px;
+        height: 25px;
+        width: 11.1em;
+        color: black;
+        background-color:rgb(78, 20, 238);
+        border-bottom: 1px solid black; 
+        border-top: 1px solid black; 
+        border-left: 1px solid black; 
+        border-right: 1px solid black; 
+        border: none;
+        padding-left: 1px;
+        padding-top: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        text-decoration: none;
+        
+    }
+    .AL{
+        text-align: left;
+        margin-left: 6px;
+    }
+    
+    
+    .shift {
+        margin: 4px;
+        margin-left: -2px;
+        padding: 6px;
+        border: 1px solid blue;
+        border-radius: 7%;
+        display: flex;
+        justify-content:center ;
+        height: 20px;
+       
+     
+    }
+    .bw{
+        width: 12.7em;
+    }
+    
+    .single{
+        border: none;
+        margin-top: 10px;
+        height: 28px;
+        width: 13.7em;
+    }
+    
+    
+    .free{
+        color: blue;
+        font-family: cursive;
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    .align{
+        display: flex;
+        justify-self: center;
+    }
+    
+    .border{
+        border-left: black;
+    }
+    
+    
+    
+    .footer{
+        text-align: center;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        background-color: rgba( 255, 255 , 255, 0.6);
+        width: 100%;
+        height: 100px;
+       
+    } 
+</style>
+</head>
+
+<body>
+    
+
+    <header>
+        <div class="header">
+            <img src="newlogo.png" class="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="CWEBSITE.html">HOME</a></li>
+                    <li>LOGIN</li>
+                    <li><a href="MYABOUT.html">ABOUT</a></li>
+                </ul>
+            </nav>
+
+        </div>
+      
+      
+    </header>
+    <section>
+
+      
+        <div class="adjust">
+            <div>
+                <img src="newlogo.png" class="logo">
+            </div>
+            <div class="fd mascot">
+                <img src="mascot.jpg"  width="200px">
+
+            </div>
+           
+            <div class="fd bg">
+                <p class="free"> DOWNLOAD FOR FREE!</p>
+                <form method="GET" class="AL">
+
+                    First Name  <input type="text" name="firstname" class="shift">
+    
+                    Last Name  <input type="text" name="lastname" class="shift">
+    
+                    E-mail  <input type="email" value="@" name="email" required class="shift"> 
+    
+                    Password  <input type="password" name="password" min="5" class="shift"> 
+    
+                    Date of Birth <input type="date" name="birthday" class="shift bw"> 
+    
+        
+                    <a href="https://google.co.uk" class="button shift">Sign up with google</a> 
+    
+    
+                    <input style="Background-color: brown;" type="submit" value="REGISTER FOR FREE" class="shift single"> <br>
+                </form>
+            </div>
+           
+            
+        </div>
+
+
+    </section>
+     <footer>
+      <div class="footer">
+
+      </div>
+    </footer>
+</body>
+
+</html>

@@ -1,12 +1,4 @@
 
-
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>FGWEBFORM</title>
-    
-<style>
     body{
     
         background-image: url(eye.jpg);
@@ -185,73 +177,4 @@
         width: 100%;
         height: 100px;
        
-    } 
-</style>
-</head>
-
-<body>
-    
-
-    <header>
-        <div class="header">
-            <img src="newlogo.png" class="logo">
-
-            <nav>
-                <ul>
-                    <li><a href="CWEBSITE.html">HOME</a></li>
-                    <li>LOGIN</li>
-                    <li><a href="MYABOUT.html">ABOUT</a></li>
-                </ul>
-            </nav>
-
-        </div>
-      
-      
-    </header>
-    <section>
-
-      
-        <div class="adjust">
-            <div>
-                <img src="newlogo.png" class="logo">
-            </div>
-            <div class="fd mascot">
-                <img src="mascot.jpg"  width="200px">
-
-            </div>
-           
-            <div class="fd bg">
-                <p class="free"> DOWNLOAD FOR FREE!</p>
-                <form method="GET" class="AL">
-
-                    First Name  <input type="text" name="firstname" class="shift">
-    
-                    Last Name  <input type="text" name="lastname" class="shift">
-    
-                    E-mail  <input type="email" value="@" name="email" required class="shift"> 
-    
-                    Password  <input type="password" name="password" min="5" class="shift"> 
-    
-                    Date of Birth <input type="date" name="birthday" class="shift bw"> 
-    
-        
-                    <a href="https://google.co.uk" class="button shift">Sign up with google</a> 
-    
-    
-                    <input style="Background-color: brown;" type="submit" value="REGISTER FOR FREE" class="shift single"> <br>
-                </form>
-            </div>
-           
-            
-        </div>
-
-
-    </section>
-     <footer>
-      <div class="footer">
-
-      </div>
-    </footer>
-</body>
-
-</html>
+    }

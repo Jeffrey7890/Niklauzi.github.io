@@ -1,0 +1,198 @@
+
+*{
+
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fdfcfb;
+    font-family: sans-serif;
+}
+
+.hi{
+    padding: 1rem;
+}
+
+ button{
+     font-size: 0.8rem;
+ }
+
+ 
+
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+footer, .focol{
+    background: black;
+    padding: 3rem;
+}
+
+/* Task Table styling, some styling on the table will be default bootstrap styling  */
+.table-contianer{
+    padding: 0 10%;
+    margin: 2.7rem auto 0;
+}
+
+.heading{
+    font-size: 2.7rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 2.7rem;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead tr th{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    opacity: 1;
+    padding: 0.8rem;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #dee2e685;
+   
+
+}
+
+
+.table tbody tr td{
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
+    color: #333;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dee2e685;
+
+}
+
+.table tbody tr td .btn, input.btn{
+    width: 8.5rem;
+    line-height: 35px;
+    display: inline-block;
+    background-color:  #ee4e39;
+    font-weight: medium;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size:0.91rem;
+    opacity: 1;
+
+
+}
+
+.table tbody tr td .btn:hover,  input.btn:hover{
+    background: #8b0b0b;
+}
+
+
+.logout_btn{
+    width: 5rem;
+    padding: 0.3rem;
+    background:  #bf2915;
+    text-decoration: none;
+    border-radius: 0.12rem;
+    -webkit-border-radius: 0.12rem;
+    -moz-border-radius: 0.12rem;
+    -ms-border-radius: 0.12rem;
+    -o-border-radius: 0.12rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+  
+   
+   
+}
+
+.logout_btn:hover{
+    background:#809d88 ;
+    color: #333;
+}
+
+/* Reward button stlying */
+
+ul li .btn:focus,
+ul li .btn:active{
+    outline: none;
+    box-shadow: none;
+}
+
+ul li .btn:hover{
+    color: #fdfcfb;
+}
+
+@media(max-width: 760px){
+    .table thead{
+        display: none;
+    }
+
+    .table, .table tbody,.table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 1rem;
+    }
+    .table tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .table td:before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 5%;
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    .table tbody tr td .btn{
+        width: 8.5rem;
+        line-height: 35px;
+        display: inline-block;
+        background-color: #bf2915;
+        font-weight: medium;
+        text-align: center;
+        margin-left: 5rem;
+        vertical-align: middle;
+        user-select: none;
+        border: 1px solid transparent;
+        font-size: 1rem;
+        opacity: 1;
+    }
+   span .navbar-toggler-icon:hover{
+       color: red;
+   }
+
+    #fix{
+       /* position: absolute; */
+       background: #242222;
+       width: 100%;
+   }
+   .modal-content{
+       width: 350px;
+   }
+
+}
+
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirAdmin</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/Air.css">
+</head>
+<body>
+    <!-- Responsive sidenav -->
+  <div class="container-fluid">
+    <div class="row min-vh-100 flex-column flex-md-row">
+      <aside class="col-12 col-md-3 col-xl-2 p-0 bg-dark ">
+        <nav id="fix" class="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top " id="sidebar">
+          <div class="text-center p-3">
+            <img src="images(380).jpg" alt="profile picture" class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow"/>
+           <a href="#" class="navbar-brand mx-0 font-weight-bold  text-nowrap" >Project Evergreen</a>
+          </div>
+            <button type="button" class="navbar-toggler border-0 order-1" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse order-last" id="nav">
+            <ul class="navbar-nav flex-column w-100 justify-content-center">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <!-- Ambassadors Wallet: Table containing Names and wallet of Ambassadors -->
+            <button class="nav-link  w-100 btn" data-bs-toggle="modal" data-bs-target="#reward">Wallets</button>
+            </li>
+
+            <li class="nav-item">
+                <!-- Ambassador Profile: Will contain a list of the Ambassadors working on that particular project -->
+              <a href="#" class="nav-link"> Profiles </a>
+            </li>
+
+            <li class="nav-item pt-xl-5">
+            <div class="right_area">
+              <a href="#" class="logout_btn">Logout</a>
+             </div>
+             </li>
+          </ul>
+          </div>
+               <ul class="nav justify-content-center">
+                 <li class="nav-item">
+                   <a href="#" class="nav-link text-white"><i class="fab fa-twitter-square fa-lg"></i></a>
+                 </li>
+                 <li class="nav-item">
+                  <a href="#" class="nav-link text-white"><i class="fab fa-instagram-square fa-lg"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white"><i class="fas fa-envelope fa-lg"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+                </li>
+               </ul>
+
+        </nav>
+      </aside>
+      <main class="col px-0 flex-grow-1">
+        <div class="contianer py-3">
+          <article>
+            <h1 class="font-weight-light hi"> Welcome, Admin</h1>
+          </article>
+         </div>
+
+         <!-- Table -->
+         <div class="container">
+           <div class="table-container">
+             <h1 class="heading"> Submitted Tasks</h1>
+             <table class="table">
+               <thead class="bg-dark">
+                 <tr>
+                   <th>Task ID</th>
+                   <th>Description</th>
+                   <th>Submitted Links</th>   <!-- I will receive links from the Task submission Modal on the Ambassador's Dashboard -->
+                   <th>Status</th>
+                   <th>Rewards</th>
+                 </tr>
+               </thead>
+
+               <tbody>
+                 <tr>
+                   <td  data-label="Task ID">Task 1</td>
+                   <td  data-label="Description"> CREATE A TWEET THREAD OF 10 TWEETS ABOUT EVERGREEN</td>
+                   <td  data-label="Submitted Links"> </td>
+                   <td  data-label="Status"  class="d-flex justify-content-center">Verified</td>
+                   <td  data-label="Rewards"> 100 PTS</td>
+                 </tr>
+                 <tr>
+                  <td  data-label="Task ID">Task 2</td>
+                  <td  data-label="Description"> CREATE TWO INFOGRAPPHICS ABOUT EVERGREEN</td>
+                  <td  data-label="Submitted Links"> </td>
+                  <td  data-label="Status"  class="d-flex justify-content-center">Pending</td>
+                  <td  data-label="Rewards"> 100 PTS</td> 
+                </tr>
+                <tr>
+                  <td  data-label="Task ID">Task 3</td>
+                  <td  data-label="Description"> CREATE 15 MEMES ABOUT EVERGREEN</td>
+                  <td  data-label="Submitted Links"> </td>
+                  <td  data-label="Status"  class="d-flex justify-content-center">Rejected</td>
+                  <td  data-label="Rewards"> 100 PTS</td> 
+                  </tr>
+                <tr>
+                  <td  data-label="Task ID">Task 4</td>
+                  <td  data-label="Description"> CREATE A TWEET THREAD OF 10 TWEETS</td>
+                  <td  data-label="Submitted Links"> </td>
+                  <td  data-label="Status"  class="d-flex justify-content-center">Pending</td>
+                  <td  data-label="Rewards"> 100 PTS</td>
+
+                </tr>
+                <tr>
+                  <td  data-label="Task ID">Task 5</td>
+                  <td  data-label="Description"> MAKE 3 MUNITES VIDEO ABOUT EVERGREEN</td>
+                  <td  data-label="Submitted Links"> </td>
+                  <td  data-label="Status"  class="d-flex justify-content-center">Rejected</td>
+                  <td  data-label="Rewards"> 100 PTS</td>
+                </tr>
+                <tr>
+                  <td  data-label="Task ID">Task 6</td>
+                  <td  data-label="Description"> SHOW YOUR ARTISTIC SKILL BY PAINTING OR SCULPTING ANYTHING REGARDING TO EVERGREEN</td>
+                  <td  data-label="Submitted Links"> </td>
+                  <td  data-label="Status"  class="d-flex justify-content-center">Verified</td>
+                  <td  data-label="Rewards"> 100 PTS</td>
+                </tr>
+                <tr>
+                  <td  data-label="Task ID">Task 7</td>
+                  <td  data-label="Description"> DESIGN A TELEGRAM BOT FOR EVERGREEN</td>
+                  <td  data-label="Submitted Links"> </td>
+                  <td  data-label="Status"  class="d-flex justify-content-center">Verified</td>
+                  <td  data-label="Rewards"> 100 PTS</td>
+                </tr>
+               </tbody>
+             </table>
+
+           </div>
+
+         </div>
+      </main>
+
+    </div>
+  </div>
+
+
+  <!-- foooter -->
+ <footer>
+   <nav  class="focol">
+   <div>
+      <ul class="nav justify-content-center">
+                 <li>
+                   <a href="#" class="nav-link text-white"><i class="fab fa-twitter-square fa-lg"></i></a>
+                 </li>
+                 <li>
+                  <a href="#" class="nav-link text-white"><i class="fab fa-instagram-square fa-lg"></i></a>
+                </li>
+                <li>
+                  <a href="mailto:yourdesiredmail@mail.com?subject=yoursubject" class="nav-link text-white"><i class="fas fa-envelope fa-lg"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white"><i class="fab fa-telegram fa-lg"></i></a>
+                </li>
+       </ul>
+   </div>
+   <div class="container">
+    <ul class="nav flex w-100 justify-content-center">
+    <li class="nav-item">
+      <a href="#" class="nav-link text-white active"> Home</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link text-white"> Blog</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link text-white"> Terms </a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link text-white">Privacy Policy</a>
+    </li>
+  </ul>
+  </div>
+  <div class="nav flex w-100 justify-content-center">
+    <p>&copy; AIRE GROUP 2022 </p>
+  </div>
+   </nav>
+
+ </footer>
+
+
+<script src="Air.js"></script>
+<script src="bootstrap.bundle.min.js">
+
+</script>
+</body>
+</html>
